@@ -11,5 +11,5 @@ btn.addEventListener('click', function (event) {
   var value2 = Number(num2.value);
   var value = value1 + value2;
 
-  answer.textContent = (value);
+  answer.textContent = value;
 });
