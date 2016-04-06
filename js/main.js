@@ -1,7 +1,7 @@
 
 var num1 = document.querySelector('#value-one');
 var num2 = document.querySelector('#value-two');
-var btn = document.querySelector('#calculate-button');
+var btn = document.querySelector('button');
 var sum = document.querySelector('#answer');
 
 

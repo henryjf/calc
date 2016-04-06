@@ -6,19 +6,23 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
+    <div class='container'>
+
     <h1>Calculator</h1>
 
-<form>
-  <input type="text" id="value-one" />
-  <input type="text" id="value-two" />
-  <input type="submit" value="Calculate" id="calculate-button" />
-</form>
+      <form>
+        <input type="text" id="value-one" />
+        <aside> + </aside>
+        <input type="text" id="value-two" />
+        <!-- <input type="button" value="Calculate" id="calculate-button" /> -->
+        <button type="button" name="button">Calculate</button>
+      </form>
 
-<div class="answer">
-  Answer: <span id="answer"></span>
-</div>
+      <div class="answer">
+        Answer: <span id="answer"></span>
+      </div>
 
-
+  </div>
   <script src="js/main.js"></script>
   </body>
 </html>
