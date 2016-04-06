@@ -30,6 +30,7 @@ aside {
   color: #24393d;
 }
 #value-one, #value-two {
+  border: 1px solid #796749;
   border-radius: 5px;
   width: 90px;
   font-size: 20px;
